@@ -28,7 +28,7 @@ dbConnect.query(
 );
 
 dbConnect.query (
-  "SELECT * FROM users WHERE full_name LIKE '%john%'", function (err, row) {
+  "SELECT * FROM users WHERE full_name LIKE '%john%';", function (err, row) {
     if (err) {
       console.log("Query Error - ", err);
     } else {
