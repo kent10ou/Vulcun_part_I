@@ -32,7 +32,7 @@ dbConnect.query (
     if (err) {
       console.log("Query Error - ", err);
     } else {
-      console.log("Query worked");
+      console.log("row - ", row);
     }
 });
 
